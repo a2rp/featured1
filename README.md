@@ -69,16 +69,6 @@ Preview the production build locally:
 npm run preview
 ```
 
-## Live Demo
-
-<a href="https://a2rp.github.io/featured1/" target="_blank" rel="noopener noreferrer">
-  View NEXUS° Live
-</a>
-
-## Preview
-
-![NEXUS Website Preview](preview.png)
-
 ## Project Structure
 
 ```text
