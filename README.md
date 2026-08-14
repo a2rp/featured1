@@ -1,18 +1,144 @@
-# React + Vite
+# NEXUS°
 
-![alt text](preview.png)
+A modern, futuristic digital experience built with React and Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![NEXUS Preview](preview.png)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+NEXUS° is a premium concept website focused on modern interfaces, digital products, and next-generation web experiences.
 
-## React Compiler
+The project explores a clean dark aesthetic, bold typography, interactive elements, subtle motion, responsive layouts, and a polished visual experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Modern premium UI
+- Fully responsive layout
+- Interactive hover effects
+- Smooth animations and transitions
+- Dark futuristic aesthetic
+- Reusable React components
+- Clean and maintainable code
+- Optimized production build
+- GitHub Pages deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/a2rp/featured1.git
+```
+
+Move into the project directory:
+
+```bash
+cd featured1
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Production Build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Live Demo
+
+[View NEXUS° Live](https://a2rp.github.io/featured1/)
+
+## Preview
+
+![NEXUS Website Preview](preview.png)
+
+## Project Structure
+
+```text
+featured1/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── preview.png
+└── README.md
+```
+
+## Deployment
+
+This project is configured for deployment on GitHub Pages.
+
+The Vite base path is configured as:
+
+```js
+base: "/featured1/";
+```
+
+Build the project before deployment:
+
+```bash
+npm run build
+```
+
+## Author
+
+**Ashish Ranjan**
+
+Full-Stack Web Developer focused on building modern web experiences, frontend interfaces, backend systems, and experimental projects.
+
+## Connect With Me
+
+- [Portfolio](https://www.ashishranjan.net)
+- [GitHub](https://github.com/a2rp)
+- [CodePen](https://codepen.io/ash1198)
+- [LinkedIn](https://www.linkedin.com/in/aashishranjan)
+- [Facebook](https://www.facebook.com/theash.ashish/)
+- [YouTube](https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1)
+- [Buy Me A Coffee](https://buymeacoffee.com/a2rp)
+- [Patreon](https://patreon.com/a2rp)
+- [Email](mailto:ash.ranjan09@gmail.com)
+
+## Support
+
+If you like this project and want to support my work:
+
+[Support My Work](https://a2rp-donation-page.netlify.app/)
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by [Ashish Ranjan](https://www.ashishranjan.net)
