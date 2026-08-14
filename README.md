@@ -71,7 +71,9 @@ npm run preview
 
 ## Live Demo
 
-[View NEXUS° Live](https://a2rp.github.io/featured1/)
+<a href="https://a2rp.github.io/featured1/" target="_blank" rel="noopener noreferrer">
+  View NEXUS° Live
+</a>
 
 ## Preview
 
