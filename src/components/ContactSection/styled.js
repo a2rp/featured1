@@ -207,11 +207,11 @@ export const Styled = {
         }
 
         .footerLinks a {
-            min-height: 74px;
+            min-height: 64px;
             padding: 0 18px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             gap: 1rem;
             border-right: 1px solid rgba(255, 255, 255, 0.09);
             border-bottom: 1px solid rgba(255, 255, 255, 0.09);
@@ -224,18 +224,14 @@ export const Styled = {
                 color 0.3s ease;
         }
 
+        .footerLinks a svg {
+            width: 19px;
+            height: 19px;
+        }
+
         .footerLinks a:hover {
             background: rgba(255, 255, 255, 0.035);
             color: #ddd;
-        }
-
-        .footerLinks a span:last-child {
-            color: #555;
-            transition: transform 0.3s ease;
-        }
-
-        .footerLinks a:hover span:last-child {
-            transform: rotate(45deg);
         }
 
         .footerBottom {
@@ -260,6 +256,11 @@ export const Styled = {
         .footerBottom > a {
             justify-self: end;
             transition: color 0.3s ease;
+        }
+
+        .footerBottom > span a {
+            color: #ddd;
+            font-weight: 600;
         }
 
         .footerBottom a:hover {

@@ -1,161 +1,41 @@
-# NEXUS°
+# NEXUS
 
-A modern, futuristic digital experience built with React and Vite.
+A polished React and Vite landing page for a futuristic digital experience studio, with focused sections for work, capabilities, about, and contact.
 
-![NEXUS Preview](preview.png)
-
-## Overview
-
-NEXUS° is a premium concept website focused on modern interfaces, digital products, and next-generation web experiences.
-
-The project explores a clean dark aesthetic, bold typography, interactive elements, subtle motion, responsive layouts, and a polished visual experience.
+![NEXUS screenshot](screenshot.png)
 
 ## Features
 
-- Modern premium UI
-- Fully responsive layout
-- Interactive hover effects
-- Smooth animations and transitions
-- Dark futuristic aesthetic
-- Reusable React components
-- Clean and maintainable code
-- Optimized production build
-- GitHub Pages deployment
+- Responsive fixed header with section navigation
+- Editorial hero, selected work, capabilities, and contact sections
+- Dark visual system with subtle hover and border transitions
+- Icon-only social and support links in the footer
+- Accessible floating go-to-top control
+- GitHub Pages deployment setup
 
-## Tech Stack
+## Tech stack
 
-- React
-- Vite
-- JavaScript
-- CSS
+React, Vite, JavaScript, styled-components, CSS, and React Icons.
 
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/a2rp/featured1.git
-```
-
-Move into the project directory:
-
-```bash
-cd featured1
-```
-
-Install dependencies:
+## Run locally
 
 ```bash
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
 ```
 
-## Production Build
-
-Create an optimized production build:
+## Build and deploy
 
 ```bash
+npm run lint
 npm run build
+npm run deploy
 ```
 
-Preview the production build locally:
-
-```bash
-npm run preview
-```
-
-## Project Structure
-
-```text
-featured1/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-├── preview.png
-└── README.md
-```
-
-## Deployment
-
-This project is configured for deployment on GitHub Pages.
-
-The Vite base path is configured as:
-
-```js
-base: "/featured1/";
-```
-
-Build the project before deployment:
-
-```bash
-npm run build
-```
-
-## Author
-
-**Ashish Ranjan**
-
-Full-Stack Web Developer focused on building modern web experiences, frontend interfaces, backend systems, and experimental projects.
-
-## Connect With Me
-
-- [Portfolio](https://www.ashishranjan.net)
-- [GitHub](https://github.com/a2rp)
-- [CodePen](https://codepen.io/ash1198)
-- [LinkedIn](https://www.linkedin.com/in/aashishranjan)
-- [Facebook](https://www.facebook.com/theash.ashish/)
-- [YouTube](https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1)
-- [Buy Me A Coffee](https://buymeacoffee.com/a2rp)
-- [Patreon](https://patreon.com/a2rp)
-- [Email](mailto:ash.ranjan09@gmail.com)
-
-## Support
-
-If you like this project and want to support my work:
-
-[Support My Work](https://a2rp-donation-page.netlify.app/)
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Made with ❤️ by [Ashish Ranjan](https://www.ashishranjan.net)
+Live app: [https://a2rp.github.io/featured1/](https://a2rp.github.io/featured1/)
 
 ## Links
 
-- Portfolio: [https://www.ashishranjan.net](https://www.ashishranjan.net)
-- GitHub: [https://github.com/a2rp](https://github.com/a2rp)
-- CodePen: [https://codepen.io/ash1198](https://codepen.io/ash1198)
-- LinkedIn: [https://www.linkedin.com/in/aashishranjan](https://www.linkedin.com/in/aashishranjan)
-- Facebook: [https://www.facebook.com/theash.ashish/](https://www.facebook.com/theash.ashish/)
-- YouTube: [https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1](https://www.youtube.com/@ashishranjan-ashz?sub_confirmation=1)
-- Email: [ash.ranjan09@gmail.com](mailto:ash.ranjan09@gmail.com)
-
-## Support
-
-- Support: [https://a2rp-donation-page.netlify.app/](https://a2rp-donation-page.netlify.app/)
-- Buy Me A Coffee: [https://buymeacoffee.com/a2rp](https://buymeacoffee.com/a2rp)
-- Patreon: [https://patreon.com/a2rp](https://patreon.com/a2rp)
-<!-- Project links -->
-
-## Links
-
-- Live: [https://a2rp.github.io/featured1/](https://a2rp.github.io/featured1/)
-- Repository: [https://github.com/a2rp/featured1](https://github.com/a2rp/featured1)
 - Portfolio: [https://www.ashishranjan.net/](https://www.ashishranjan.net/)
 - GitHub: [https://github.com/a2rp](https://github.com/a2rp)
 - CodePen: [https://codepen.io/ash1198](https://codepen.io/ash1198)

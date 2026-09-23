@@ -75,13 +75,13 @@ function WorkSection() {
                             <div className="sphereCore" />
                         </div>
 
-                        <span className="projectBadge">AI Experience</span>
+                        <span className="projectBadge">Adaptive Experience</span>
                     </div>
 
                     <div className="projectInfo">
                         <div>
                             <span className="projectMeta">
-                                Artificial Intelligence
+                                Emerging Interfaces
                             </span>
 
                             <h3>Neural Field</h3>

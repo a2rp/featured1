@@ -13,8 +13,28 @@ export const Styled = {
             text-decoration: none;
         }
     `,
-    Footer: styled.footer`
-        padding: 28px 24px 34px; border-top: 1px solid #252525; color: #8b8b8b; text-align: center; font-size: 12px;
-        a { color: #f5f5f5; font-weight: 600; } nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 14px; margin-top: 10px; }
+    GoToTop: styled.button`
+        position: fixed;
+        right: 22px;
+        bottom: 22px;
+        z-index: 120;
+        width: 44px;
+        height: 44px;
+        display: grid;
+        place-items: center;
+        border: 1px solid #777;
+        border-radius: 50%;
+        background: #f5f5f5;
+        color: #050505;
+        cursor: pointer;
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.26);
+        transition: border-color 180ms ease, box-shadow 180ms ease;
+
+        &:hover,
+        &:focus-visible {
+            border-color: #fff;
+            box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.14);
+            outline: none;
+        }
     `,
 };

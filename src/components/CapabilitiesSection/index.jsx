@@ -26,8 +26,8 @@ const capabilities = [
         number: "04",
         title: "Experiments",
         description:
-            "Explorations around emerging interfaces, artificial intelligence, motion and future-facing technology.",
-        tags: ["AI", "Motion", "Creative Tech"],
+            "Explorations around emerging interfaces, motion, and future-facing technology.",
+        tags: ["Interfaces", "Motion", "Creative Tech"],
     },
 ];
 

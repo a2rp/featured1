@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { FiArrowUp } from "react-icons/fi";
 import { Styled } from "./App.styled";
 
 import Header from "./components/Header";
@@ -8,6 +10,14 @@ import CapabilitiesSection from "./components/CapabilitiesSection";
 import ContactSection from "./components/ContactSection";
 
 function App() {
+    const [showGoToTop, setShowGoToTop] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => setShowGoToTop(window.scrollY > 360);
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
         <Styled.Wrapper>
             <Header />
@@ -19,10 +29,16 @@ function App() {
                 <CapabilitiesSection />
                 <ContactSection />
             </main>
-            <Styled.Footer>
-                Copyright &copy; {new Date().getFullYear()} <a href="https://www.ashishranjan.net" target="_blank" rel="noopener noreferrer">Ashish Ranjan</a>
-                <nav aria-label="Footer links"><a href="https://github.com/a2rp" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://codepen.io/ash1198" target="_blank" rel="noopener noreferrer">CodePen</a><a href="mailto:ash.ranjan09@gmail.com">Email</a><a href="https://a2rp-donation-page.netlify.app/" target="_blank" rel="noopener noreferrer">Support</a><a href="https://buymeacoffee.com/a2rp" target="_blank" rel="noopener noreferrer">Buy Me A Coffee</a><a href="https://patreon.com/a2rp" target="_blank" rel="noopener noreferrer">Patreon</a></nav>
-            </Styled.Footer>
+            {showGoToTop && (
+                <Styled.GoToTop
+                    type="button"
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    aria-label="Scroll to top"
+                    title="Scroll to top"
+                >
+                    <FiArrowUp aria-hidden="true" />
+                </Styled.GoToTop>
+            )}
         </Styled.Wrapper>
     );
 }
