@@ -32,7 +32,15 @@ function App() {
             {showGoToTop && (
                 <Styled.GoToTop
                     type="button"
-                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                    onClick={() => {
+                        const behavior = window.matchMedia(
+                            "(prefers-reduced-motion: reduce)",
+                        ).matches
+                            ? "auto"
+                            : "smooth";
+
+                        window.scrollTo({ top: 0, behavior });
+                    }}
                     aria-label="Scroll to top"
                     title="Scroll to top"
                 >

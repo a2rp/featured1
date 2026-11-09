@@ -9,6 +9,7 @@ A polished React and Vite landing page for a futuristic digital experience studi
 - Responsive fixed header with section navigation
 - Editorial hero, selected work, capabilities, and contact sections
 - Dark visual system with subtle hover and border transitions
+- Respects reduced-motion preferences for animations and scrolling
 - Icon-only social and support links in the footer
 - Accessible floating go-to-top control
 - GitHub Pages deployment setup
