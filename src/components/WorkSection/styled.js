@@ -57,7 +57,6 @@ export const Styled = {
         .projectCard {
             min-width: 0;
             background: #050505;
-            cursor: pointer;
         }
 
         .projectLarge {
